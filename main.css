@@ -1,0 +1,313 @@
+body{
+    background-color: #F19489 ;
+   
+ }
+ header{
+    text-align: center;
+    text-decoration: maroon;
+    font-style: oblique;
+    font-size: large;
+    color: black ;
+    text-shadow: 0.2em 0.1em white;
+ }
+  header div{
+   display: none;
+ }
+ article img{
+    height: 20em;
+    width: 20em;
+    padding: 0%;
+    padding-top: 2%;
+    padding-bottom: 2% ;
+    text-align: center;
+    margin-left: 15%;
+   
+ }
+ article p{
+    text-align: justify;
+    margin: 0.5%;
+    padding: 0.5%;
+   
+ }
+ article div{
+  display: none;
+ }
+ article aside{
+  text-align: center;
+  font-style: italic;
+ }
+ article aside p{
+  text-align: center;
+ }
+  
+  
+  
+ img{
+    max-width: 100%;
+    align-items: center;
+   
+ }
+  
+ #container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    text-align: center;
+   }
+   /* to increase the size of nav bar items*/
+   nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+   }
+   /* to make border*/
+   nav li {
+    background-color: #F19489;
+    border-radius: 2em;
+    margin: 0.3em;
+    padding: 0.4em;
+    list-style-type: none;
+   }
+   /* to change the colour of nav bar items*/
+   nav li a {
+    color: maroon;
+    text-decoration: none;
+   }
+  main {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 0.5em;
+    padding-left: 1em;
+    border-radius: 1em;
+    border-top: solid 0.2em #922B21;
+    border-bottom: solid 0.2em #922B21;
+    background-color: #ffffff;
+   }
+   article img{
+       text-align: center;
+   }
+  
+  
+  
+  
+  
+   footer{
+       text-align: center;
+       padding-top:0.5em;
+       background-color: transparent;
+       opacity: 0.75;
+   
+       display: block;
+  
+        }
+        footer:hover{
+            opacity: 5;
+        }
+        about img{
+            text-align: center;
+            padding-left: 20%;
+            padding-right: 20%;
+  
+        }
+       .about aside p{
+         text-align: center;
+       }
+   /* For TABLET*/
+   @media only screen and (min-width: 688px) {
+    /* styles specifies horizontal dispay for navigation links */
+    nav li {
+      display: block;
+      float: left;
+      width: 18%;
+      margin-left: 1%;
+      margin-right: 1%;
+      padding-left: 0;
+      padding-right: 0;
+      white-space: nowrap;
+      border-radius: 0;
+      background-color: transparent;
+     
+    }
+   
+    /* styles for main */
+    main {
+      clear: left;
+      margin-top: 4em;
+      border-radius: 0;
+      overflow: auto;
+    }
+   
+    article {
+        background-color:rgb(224, 191, 191);
+        float: left;
+        padding: 0;
+        position: 0;
+        width: 50%;
+        text-align: center;
+      }
+     
+      /* styles for the images inside the articles' elements - nutrition page */
+      article img {
+       
+        text-align: center;
+        margin: 3%;
+   
+        margin-bottom: 0%;
+      }
+     
+      article div {
+        /*width: 90%;*/
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+      }
+      article div img{
+        height: 4cm;
+        width: 3cm;
+      }
+      /* styles for the paragraphs inside the main article element */
+      article p {
+     
+        margin-top: 2%;
+        margin-bottom: 4%;
+        padding: 1%;
+        text-align: center;
+      }
+      article h1{
+          color: maroon;
+      }
+      article h3{
+          color: maroon;
+      }
+     
+      /* styles for the ul in the article element */
+      article ul {
+        text-align: left;
+      }
+     
+      /* styles for the aside element */
+      aside {
+        background: color #f19489;;
+       
+        padding: 1em;
+   
+        margin: 1em;
+      }
+      article p{
+          text-align: justify;
+         
+      }
+     
+      /* styles for main element with class flex display */
+      .flex-container {
+        display: flex;
+      }
+      about article{
+        height: 20em;
+        width: 20em;
+        padding: 0%;
+        padding-top: 2%;
+        padding-bottom: 2% ;
+        text-align: center;
+        margin-left: 15%;
+        width: 40% 60%;
+       
+    }
+    about article p{
+        text-align: center;
+        padding: 1;
+    }
+    article aside h1{
+      font-style: italic;
+      margin-top: 3em;
+      margin-bottom: 2em;
+     
+     
+  
+      }
+      main{
+       background-color:rgb(224, 191, 191);
+  
+     }
+    
+     
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   @media only screen and (min-width: 999px) {
+    /* styles for container id */
+    #container {
+      background-color:transparent;
+    }
+   
+    header {
+        text-align: left;
+        padding-left: 10%;
+      }
+    
+     
+    
+     
+     nav li {
+        display: block;
+        float: left;
+        width: 18%;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding-left: 0;
+        padding-right: 0;
+        white-space: nowrap;
+        border-radius: 0;
+        background-color: transparent;
+        color: maroon;
+      }
+      nav li a {
+        display: inline-block;
+        padding: 0.7em;
+        text-shadow: 0.2em 0.1em antiquewhite;
+      }
+      nav li a:link {
+        color: #ffffff;
+      }
+      nav li a:visited {
+        color: maroon;
+      }
+      nav li a:hover {
+        font-style: italic;
+        color:black;
+      }
+      nav li a:active {
+        color: #6600cc;
+      }
+    
+      header div{
+        display: inline-block;
+        margin-left: 55%;
+       
+      }
+       .contact article {
+      width: 60%;
+     
+     }
+    
+   }
+   
+     
+    
+  
+     
+ 
